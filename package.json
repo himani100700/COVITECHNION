@@ -7,8 +7,14 @@
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "heroku-postbuild": "ng build --prod"
     },
+    "engines": {
+        "node": "12.4.1",
+        "npm": "6.14.5"
+    },
+
     "private": true,
     "dependencies": {
         "@angular/animations": "~9.0.5",
@@ -25,7 +31,10 @@
         "ngx-pagination": "^5.0.0",
         "rxjs": "~6.5.4",
         "tslib": "^1.10.0",
-        "zone.js": "~0.10.2"
+        "zone.js": "~0.10.2",
+        "@angular/cli": "^10.0.4",
+        "@angular/compiler-cli": "^10.0.5",
+        "typescript": "~3.7.5"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.1000.4",
@@ -48,4 +57,5 @@
         "tslint": "~5.18.0",
         "typescript": "~3.7.5"
     }
+
 }
