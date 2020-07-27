@@ -14,11 +14,15 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatPaginatorModule } from "@angular/material/paginator";
+import {MatCardModule} from '@angular/material/card';
 
 import { LoginComponent } from './login/login.component';
 import { ProductComponent } from './product/product.component';
 import { CovidComponent } from './covid/covid.component';
 import { NgxPaginationModule } from "ngx-pagination";
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,10 @@ import { NgxPaginationModule } from "ngx-pagination";
     NavComponent,
     LoginComponent,
     ProductComponent,
-    CovidComponent
+    CovidComponent,
+    ContactComponent,
+    FooterComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +49,7 @@ import { NgxPaginationModule } from "ngx-pagination";
     MatDividerModule,
     MatPaginatorModule,
     NgxPaginationModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
