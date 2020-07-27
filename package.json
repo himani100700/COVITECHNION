@@ -33,7 +33,8 @@
         "zone.js": "~0.10.2",
         "@angular/cli": "^10.0.4",
         "@angular/compiler-cli": "^10.0.5",
-        "typescript": "~3.9.7"
+        "typescript": "~3.9.7",
+        "@angular/language-service": "~10.0.5"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.1000.4",
