@@ -23,6 +23,7 @@ import { NgxPaginationModule } from "ngx-pagination";
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CartComponent } from './cart/cart.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CartComponent } from './cart/cart.component';
     CovidComponent,
     ContactComponent,
     FooterComponent,
-    CartComponent
+    CartComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
