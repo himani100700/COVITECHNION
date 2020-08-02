@@ -34,4 +34,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-south-1 \
-            dist/tdsd-website/ s3://$AWS_BUCKET
+            dist/TDSD-website/ s3://$AWS_BUCKET
